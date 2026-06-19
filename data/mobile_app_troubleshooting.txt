@@ -1,0 +1,96 @@
+MOBILE APP TROUBLESHOOTING GUIDE
+=================================
+
+This guide addresses common issues encountered when using our mobile 
+application on iOS and Android devices.
+
+1. APP WON'T OPEN / CRASHES ON LAUNCH
+---------------------------------------
+If the app crashes immediately upon opening:
+
+iOS:
+- Ensure you are running iOS 15.0 or later
+- Force close the app: Swipe up from the bottom, swipe the app away
+- Restart your device
+- Check for app updates in the App Store
+- Delete and reinstall the app (your data is synced to the cloud)
+- Check available storage: Settings → General → iPhone Storage
+
+Android:
+- Ensure you are running Android 10 or later
+- Force stop the app: Settings → Apps → [App Name] → Force Stop
+- Clear app cache: Settings → Apps → [App Name] → Storage → Clear Cache
+- Check for app updates in the Google Play Store
+- Uninstall and reinstall the app
+- Check available storage: Settings → Storage
+
+2. LOGIN ISSUES ON MOBILE
+---------------------------
+If you cannot log in on the mobile app:
+
+- Ensure you are using the correct email and password
+- Check if Caps Lock is on (easy to miss on mobile keyboards)
+- Try "Forgot Password" to reset your credentials
+- If using SSO (Single Sign-On), ensure your corporate VPN is connected
+- Check if your account has 2FA enabled - enter the code from your authenticator
+- Clear the app data and try again
+- Try logging in via the mobile browser to isolate the issue
+
+3. PUSH NOTIFICATIONS NOT WORKING
+------------------------------------
+To enable push notifications:
+
+iOS:
+1. Go to device Settings → [App Name] → Notifications
+2. Enable "Allow Notifications"
+3. Choose notification style: Banners, Sounds, Badges
+4. In the app: Settings → Notifications → Enable Push
+
+Android:
+1. Go to device Settings → Apps → [App Name] → Notifications
+2. Enable notifications
+3. Configure notification channels (Messages, Alerts, Updates)
+4. In the app: Settings → Notifications → Enable Push
+
+If notifications are enabled but not arriving:
+- Check Do Not Disturb mode is off
+- Ensure battery saver / power optimization is not restricting the app
+- Check internet connectivity
+- Sign out and sign back in to refresh the push token
+- Uninstall and reinstall as a last resort
+
+4. SYNC ISSUES
+---------------
+If data is not syncing between mobile and web:
+- Pull down on the main screen to force refresh
+- Check internet connectivity (try loading a website)
+- Ensure you are logged into the same account on both devices
+- Check the app version is current (outdated versions may have sync bugs)
+- Go to Settings → Account → Sync Status to see the last sync time
+- If sync is stuck, log out and log back in
+
+5. PERFORMANCE AND BATTERY
+----------------------------
+If the app is running slowly or draining battery:
+- Close other apps running in the background
+- Disable background refresh: Settings → [App Name] → Background App Refresh → Off
+- Reduce notification frequency in app settings
+- Ensure you are on a stable internet connection (Wi-Fi preferred)
+- Update to the latest app version (performance improvements are ongoing)
+- If the issue persists, contact support with your device model and OS version
+
+6. OFFLINE MODE
+----------------
+Our app supports limited offline functionality:
+- View previously loaded data and reports
+- Queue actions (messages, updates) for sending when online
+- Offline indicator appears in the top bar
+- Data syncs automatically when connection is restored
+- Note: Some features (real-time collaboration, video calls) require an active connection
+
+CONTACT MOBILE SUPPORT
+------------------------
+For issues not covered here:
+- In-app: Settings → Help → Contact Support
+- Include: Device model, OS version, app version, and screenshot of the issue
+- Email: mobile-support@example.com

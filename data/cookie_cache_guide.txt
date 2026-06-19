@@ -1,0 +1,86 @@
+COOKIE AND CACHE CLEARING GUIDE
+================================
+
+If you are experiencing loading issues, display errors, or stale data in our 
+web application, clearing your browser's cookies and cache is often the first 
+recommended troubleshooting step.
+
+WHY CLEAR COOKIES AND CACHE?
+----------------------------
+Cookies store session data, login tokens, and preferences. Over time, these 
+can become corrupted or outdated, causing:
+- Pages failing to load or displaying blank screens
+- Login loops where you are repeatedly asked to sign in
+- Outdated interface elements or missing features
+- "Session expired" errors even after recent login
+
+Cache stores copies of web assets (CSS, JavaScript, images) to speed up page 
+loading. Corrupted cache files can cause:
+- Broken layouts or missing styling
+- JavaScript errors in the browser console
+- Features not working after a platform update
+
+CLEARING INSTRUCTIONS BY BROWSER
+---------------------------------
+
+Google Chrome:
+1. Click the three-dot menu (⋮) in the top-right corner
+2. Go to Settings → Privacy and Security → Clear Browsing Data
+3. Set time range to "All time"
+4. Check "Cookies and other site data" and "Cached images and files"
+5. Click "Clear data"
+6. Restart Chrome and log in again
+
+Mozilla Firefox:
+1. Click the hamburger menu (☰) in the top-right corner
+2. Go to Settings → Privacy & Security
+3. Scroll to "Cookies and Site Data"
+4. Click "Clear Data"
+5. Check both checkboxes and click "Clear"
+6. Restart Firefox and log in again
+
+Microsoft Edge:
+1. Click the three-dot menu (…) in the top-right corner
+2. Go to Settings → Privacy, Search, and Services
+3. Under "Clear browsing data," click "Choose what to clear"
+4. Select "Cookies and other site data" and "Cached images and files"
+5. Click "Clear now"
+6. Restart Edge and log in again
+
+Safari (macOS):
+1. Click Safari in the menu bar → Settings (or Preferences)
+2. Go to the Privacy tab
+3. Click "Manage Website Data" → "Remove All"
+4. Go to the Develop menu → "Empty Caches" (enable Develop menu in Advanced settings if not visible)
+5. Restart Safari and log in again
+
+CLEARING COOKIES FOR A SPECIFIC SITE ONLY
+-------------------------------------------
+If you don't want to clear all cookies, you can clear them for our site only:
+
+Chrome: Settings → Privacy → Cookies → See all cookies → Search for "example.com" → Remove
+Firefox: Settings → Privacy → Cookies → Manage Data → Search for "example.com" → Remove Selected
+Edge: Settings → Cookies → See all cookies → Search for "example.com" → Remove
+
+AFTER CLEARING
+--------------
+After clearing cookies and cache:
+- You will need to log in again to all websites
+- Saved preferences may be reset
+- The first page load may be slightly slower as assets are re-downloaded
+- If the issue persists after clearing, please contact support with:
+  - Your browser name and version
+  - Operating system
+  - Screenshot of any error messages
+  - Browser console output (press F12 → Console tab)
+
+MOBILE BROWSER CACHE
+---------------------
+iOS Safari:
+Settings → Safari → Clear History and Website Data
+
+Android Chrome:
+Chrome → Three-dot menu → History → Clear browsing data
+
+Note: Clearing mobile browser data will also remove saved passwords 
+unless you have them synced to your Google/Apple account.

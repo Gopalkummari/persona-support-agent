@@ -1,0 +1,83 @@
+UPTIME SLA AND SERVICE LEVEL AGREEMENT
+========================================
+
+Effective Date: January 1, 2024
+Document Version: 2.1
+
+1. SERVICE AVAILABILITY GUARANTEE
+----------------------------------
+We guarantee 99.9% uptime for all paid subscription plans, measured on a 
+monthly basis. This translates to a maximum of approximately 43 minutes of 
+unplanned downtime per month.
+
+Uptime Calculation:
+   Uptime % = ((Total Minutes in Month - Downtime Minutes) / Total Minutes in Month) × 100
+
+Excluded from downtime calculations:
+- Scheduled maintenance windows (announced 72 hours in advance)
+- Force majeure events (natural disasters, government actions)
+- Customer-side network or infrastructure issues
+- Third-party service provider outages outside our control
+
+2. SCHEDULED MAINTENANCE
+--------------------------
+Maintenance Window: Every Sunday, 2:00 AM - 6:00 AM UTC
+- Advance notice: Minimum 72 hours via email and status page
+- Expected duration: Typically 30-60 minutes
+- Emergency patches: May be deployed outside the window with 4-hour notice
+
+Status Page: https://status.example.com
+- Real-time service status for all components
+- Subscribe to updates via email, SMS, or RSS
+- Historical uptime data available for the past 12 months
+
+3. INCIDENT RESPONSE TIMES
+----------------------------
+| Severity  | Description                      | Response Time | Resolution Target |
+|-----------|----------------------------------|---------------|-------------------|
+| Critical  | Complete service outage           | 15 minutes    | 4 hours           |
+| High      | Major feature unavailable         | 30 minutes    | 8 hours           |
+| Medium    | Minor feature degraded            | 2 hours       | 24 hours          |
+| Low       | Cosmetic issue or enhancement     | 8 hours       | 5 business days   |
+
+4. SLA CREDITS
+--------------
+If monthly uptime falls below guaranteed levels:
+
+| Monthly Uptime    | Service Credit (% of monthly fee) |
+|-------------------|------------------------------------|
+| 99.0% - 99.9%    | 10%                                |
+| 95.0% - 99.0%    | 25%                                |
+| Below 95.0%      | 50%                                |
+
+To claim SLA credits:
+1. Submit a credit request within 30 days of the incident
+2. Include the dates and times of experienced downtime
+3. Reference incident IDs from our status page
+4. Credits are applied to the next billing cycle
+
+5. MONITORING AND REPORTING
+----------------------------
+We provide the following monitoring capabilities:
+- Real-time dashboard: Dashboard → Analytics → System Health
+- Uptime reports: Automatically generated monthly, available for download
+- Custom alerts: Configure threshold-based notifications for response times
+- API endpoint: GET /v2/status returns current system health in JSON format
+
+6. DISASTER RECOVERY
+---------------------
+- Data replicated across 3 geographic regions in real-time
+- Recovery Point Objective (RPO): 1 hour maximum data loss
+- Recovery Time Objective (RTO): 4 hours maximum to restore service
+- Annual disaster recovery drills conducted and documented
+- Backup verification performed daily with automated integrity checks
+
+7. SUPPORT AVAILABILITY FOR OUTAGES
+-------------------------------------
+During service outages:
+- Engineering team on-call 24/7
+- Dedicated incident Slack channel created for Critical/High severity
+- Customer updates posted every 30 minutes until resolution
+- Post-incident report (RCA) published within 5 business days
+
+For questions about our SLA, contact enterprise-support@example.com

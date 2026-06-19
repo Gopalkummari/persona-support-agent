@@ -1,0 +1,121 @@
+BILLING POLICY AND PROCEDURES
+==============================
+
+Last Updated: January 2024
+Document Version: 3.2
+
+1. BILLING CYCLE OVERVIEW
+-------------------------
+All customer accounts are billed on a monthly cycle. The billing date is determined 
+by the account creation date. For example, if your account was created on March 15th, 
+your billing cycle runs from the 15th of each month to the 14th of the following month.
+
+Invoices are generated automatically 3 business days before the billing date. 
+Customers receive an email notification with the invoice summary and a link to 
+download the detailed PDF invoice from their dashboard.
+
+2. PAYMENT METHODS
+------------------
+We accept the following payment methods:
+- Credit Cards: Visa, MasterCard, American Express, Discover
+- Debit Cards: Visa Debit, MasterCard Debit
+- ACH Bank Transfer (US accounts only, minimum $500 balance)
+- Wire Transfer (Enterprise accounts only)
+- PayPal (Pro and Enterprise plans)
+
+To update your payment method:
+1. Log in to your account dashboard
+2. Navigate to Settings → Billing → Payment Methods
+3. Click "Add Payment Method" or "Edit" on an existing method
+4. Enter the new payment details and click "Save"
+5. Set the new method as default if desired
+
+3. SUBSCRIPTION PLANS AND PRICING
+-----------------------------------
+| Plan         | Monthly Price | Annual Price (20% discount) |
+|--------------|---------------|-----------------------------|
+| Free         | $0            | $0                          |
+| Starter      | $29/month     | $278/year                   |
+| Professional | $79/month     | $758/year                   |
+| Enterprise   | Custom        | Custom                      |
+
+Plan upgrades take effect immediately. The prorated difference is charged to 
+your default payment method. Plan downgrades take effect at the start of the 
+next billing cycle.
+
+4. REFUND POLICY
+----------------
+We offer refunds under the following conditions:
+
+a) 30-Day Money-Back Guarantee:
+   - Available for first-time subscribers only
+   - Must be requested within 30 days of initial purchase
+   - Full refund of the subscription amount
+   - Does not apply to add-on purchases or overages
+
+b) Service Outage Credits:
+   - If uptime falls below our 99.9% SLA guarantee
+   - Credits are calculated proportionally to downtime duration
+   - Credits are applied automatically to the next billing cycle
+   - Maximum credit per month: 30% of monthly subscription fee
+
+c) Billing Error Corrections:
+   - Duplicate charges are refunded within 5-7 business days
+   - Unauthorized charges investigated within 48 hours
+   - Contact billing@support.example.com with transaction ID
+
+d) Refund Processing Times:
+   - Credit Card: 5-10 business days
+   - Bank Transfer: 10-15 business days
+   - PayPal: 3-5 business days
+
+5. DUPLICATE CHARGE DISPUTES
+-----------------------------
+If you notice duplicate charges on your statement:
+
+Step 1: Log into your dashboard and go to Billing → Transaction History
+Step 2: Identify the duplicate transaction IDs
+Step 3: Click "Dispute" next to the duplicate charge
+Step 4: Fill in the dispute form with:
+   - Transaction ID of the original charge
+   - Transaction ID of the duplicate charge
+   - Brief description of the issue
+Step 5: Submit the dispute. Our billing team reviews within 48 hours.
+Step 6: You will receive an email confirmation once the refund is processed.
+
+For urgent billing issues, contact our billing hotline: +1-800-555-BILL (2455)
+Available Monday-Friday, 9 AM - 6 PM EST.
+
+6. INVOICE MANAGEMENT
+----------------------
+To download invoices:
+1. Go to Dashboard → Billing → Invoices
+2. Select the date range
+3. Click the download icon next to any invoice for PDF export
+4. Use "Export All" for bulk CSV download of transaction history
+
+For custom invoicing (Enterprise plans):
+- Contact your account manager
+- Provide your company's tax ID / VAT number
+- Specify any required PO numbers or custom fields
+
+7. CANCELLATION POLICY
+-----------------------
+To cancel your subscription:
+1. Navigate to Settings → Subscription → Cancel Plan
+2. Select a reason for cancellation (optional but appreciated)
+3. Confirm cancellation
+
+Important notes:
+- Your access continues until the end of the current billing period
+- Data is retained for 90 days after cancellation
+- After 90 days, all data is permanently deleted
+- You can reactivate within 90 days without data loss
+- Annual subscriptions: prorated refund available within first 60 days
+
+8. TAX INFORMATION
+-------------------
+- US Customers: Sales tax applied based on state regulations
+- EU Customers: VAT charged at applicable local rate
+- VAT-exempt organizations: Submit exemption certificate to billing@support.example.com
+- Tax invoices available for download from the billing dashboard
